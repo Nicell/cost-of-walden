@@ -10,7 +10,7 @@ deploy:
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
   keep_history: true
-  local_dir: __sapper__/export
+  local_dir: __sapper__/export/cost-of-walden
   target_branch: gh-pages
   on:
     branch: master
